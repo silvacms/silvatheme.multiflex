@@ -28,6 +28,8 @@ setup(name='silvatheme.multiflex',
       zip_safe=False,
       install_requires=[
           'setuptools',
-	  'Products.Silva',
+	  'silva.core.layout',
+          'silva.core.view',
+          'silva.core.conf',
       ],
       )

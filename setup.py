@@ -31,5 +31,6 @@ setup(name='silvatheme.multiflex',
 	  'silva.core.layout',
           'silva.core.view',
           'silva.core.conf',
+          'zope.cachedescriptors',
       ],
       )

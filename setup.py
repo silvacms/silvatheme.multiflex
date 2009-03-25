@@ -29,7 +29,7 @@ setup(name='silvatheme.multiflex',
       install_requires=[
           'setuptools',
 	  'silva.core.layout',
-          'silva.core.view',
+          'silva.core.views,
           'silva.core.conf',
           'zope.cachedescriptors',
       ],

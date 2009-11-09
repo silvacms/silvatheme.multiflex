@@ -37,10 +37,11 @@
     <div class="header-breadcrumbs">
       <tal:block tal:replace="structure provider:breadcrumbs" />
       <!-- Search form -->
-      <div class="searchform">
+      <div class="searchform"
+        tal:condition="context/search|nothing">
 	    <form action="search" method="get">
 	      <fieldset>
-	        <input name="fulltext" class="field"  value=" Search..." />
+	        <input name="fulltext" class="field"  value="Search..." />
 	        <input type="submit" name="button" class="button" value="GO!" />
 	      </fieldset>
 	    </form>

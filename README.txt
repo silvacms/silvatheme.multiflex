@@ -1,10 +1,17 @@
 silvatheme.multiflex
 ====================
 
-``silvatheme.multiflex`` demo theme for Silva based on
-`silva.core.layout`_.
+``silvatheme.multiflex`` demo theme for `Silva`_.
 
-.. _silva.core.layout: http://infrae.com/download/silva_all/silva.core.layout
+For more information about how to create your own design, please check
+the `Silva developer documentation`_.
 
+Code repository
+===============
 
+You can find the code of this extension in Git:
+https://github.com/silvacms/silvatheme.multiflex
+
+.. _Silva: http://silvacms.org
+.. _Silva developer documentation: http://docs.silvacms.org/latest/
 
